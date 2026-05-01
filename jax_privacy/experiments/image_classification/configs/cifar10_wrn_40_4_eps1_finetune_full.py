@@ -44,7 +44,7 @@ def get_config() -> ml_collections.ConfigDict:
     config = config_base.ExperimentConfig(
         num_updates=fixed_updates,
         optimizer=optimizer_config.sgd_config(
-            lr=optimizer_config.constant_lr_config(0.2),
+            lr=optimizer_config.constant_lr_config(0.75),
         ),
         model=config_base.ModelConfig(
             name='wideresnet',
