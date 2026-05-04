@@ -46,7 +46,7 @@ Practical tips
 
 ---
 
-`ntk/`: experiments and code related to Neural Tangent Kernel work for this project.
+`ntk/`: Jupyter notebooks related to Neural Tangent Kernel experiments for this project.
 
 ---
 
